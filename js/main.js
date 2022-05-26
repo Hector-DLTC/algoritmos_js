@@ -1,10 +1,16 @@
-let numero = prompt("dame un numero entre el 1 y el 100");
-let numero2 = prompt("dame otro numero entre el 1 y el 100");
-let numero3 = prompt("dame el ultimo numero entre el 1 y el 100");
+function preguntanums(){
+    let num1 = prompt("dame un numero");
+    let num2 = prompt("dame otro numero");
+    let num3 = prompt("dame el ultimo numero");
 
-numero=parseFloat;
-numero2=parseFloat;
-numero3=parseFloat;
+}
+// let numero = prompt("dame un numero entre el 1 y el 100");
+// let numero2 = prompt("dame otro numero entre el 1 y el 100");
+// let numero3 = prompt("dame el ultimo numero entre el 1 y el 100");
+
+// numero=parseFloat;
+// numero2=parseFloat;
+// numero3=parseFloat;
 
 // if ((numero>numero2) && (numero>numero3)) {
 //     console.log(numero);
@@ -21,17 +27,17 @@ numero3=parseFloat;
 // }
 //////////////////////////////////////////////
 
-if ((numero<numero2) && (numero<numero3)) {
-    console.log(numero);
-}   else if ((numero>numero2) && (numero2<numero3)) {
-    console.log(numero2);
-}   else if ((numero3<numero2) && (numero>numero3)) {
-    console.log(numero3);
-}
-    else  {
-        numero=numero2=numero3;
-        alert("Patata")
-}
+// if ((numero<numero2) && (numero<numero3)) {
+//     console.log(numero);
+// }   else if ((numero>numero2) && (numero2<numero3)) {
+//     console.log(numero2);
+// }   else if ((numero3<numero2) && (numero>numero3)) {
+//     console.log(numero3);
+// }
+//     else  {
+//         numero=numero2=numero3;
+//         alert("Patata")
+// }
 /////////////////////////////////////////////////////////////////////////////
 // let x = prompt("dame un numero entre el 100 y el 200 para ver si es multiplo de 3");
 
