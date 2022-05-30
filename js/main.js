@@ -1,9 +1,9 @@
-function preguntanums(){
-    let num1 = prompt("dame un numero");
-    let num2 = prompt("dame otro numero");
-    let num3 = prompt("dame el ultimo numero");
+// function preguntanums(){
+//     let num1 = prompt("dame un numero");
+//     let num2 = prompt("dame otro numero");
+//     let num3 = prompt("dame el ultimo numero");
 
-}
+// }
 // let numero = prompt("dame un numero entre el 1 y el 100");
 // let numero2 = prompt("dame otro numero entre el 1 y el 100");
 // let numero3 = prompt("dame el ultimo numero entre el 1 y el 100");
@@ -81,3 +81,30 @@ function preguntanums(){
 // }else {
 //     alert("El numero "+n1+" es inpar");
 // }
+
+
+function adivinar () {
+    let = inferior = 1;
+    let = superior = 100;
+    let = noenc = true;
+    while (noenc) {
+        let mid = parseInt(inferior + ((superior-inferior)/2));
+        console.log(mid);
+        console.log(((superior-inferior)/2));
+
+        if (((superior-inferior)/2)<1) {
+            noenc = false;
+            alert("tu numero es el " +(parseInt(mid)+1));
+            break;
+        }
+        let res = confirm("tu numero es menor o igual a " + mid);
+        if (res) {
+            superior=mid;
+        }else{
+            inferior=mid;
+        }
+        console.log(inferior,superior);
+
+    }
+}
+adivinar();
